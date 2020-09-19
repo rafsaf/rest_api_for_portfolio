@@ -1,7 +1,8 @@
 
 # Own
 venv/
-
+settings.py
+settings.json
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -60,6 +61,7 @@ coverage.xml
 *.pot
 
 # Django stuff:
+migrations/*
 *.log
 local_settings.py
 db.sqlite3
