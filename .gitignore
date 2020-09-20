@@ -1,7 +1,16 @@
 
 # Own
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media
+static
 venv/
-settings.py
+portfolio_api/settings.py
 settings.json
 # Byte-compiled / optimized / DLL files
 __pycache__/

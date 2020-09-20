@@ -20,6 +20,7 @@ class ContactSerializer(serializers.ModelSerializer):
             'image',
             'description',
             'text',
+	    'link',
         ]
 
 

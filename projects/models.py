@@ -15,6 +15,7 @@ class Contact(models.Model):
     image = models.ImageField()
     description = models.CharField(max_length=20)
     text = models.CharField(max_length=50)
+    link = models.BooleanField(default=False)
 
 
 class Technology(models.Model):
